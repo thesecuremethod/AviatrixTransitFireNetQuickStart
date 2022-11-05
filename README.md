@@ -22,7 +22,7 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 
 ### Usage
 
-Once you have all your goodies in place, 
+Once you have everything in the list above in place, you will need to configure the Aviatrix Provider Statement in lines 5-10 in main.tf. Controller IP and Controller Password will need be set here. 
 
 ### Default Settings 
 
