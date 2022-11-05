@@ -1,4 +1,15 @@
 #
+#  Provider Statement and Controller Config. 
+#
+
+provider "aviatrix" {
+  controller_ip = "YOURcontrollersIPaddressHERE"
+    username = "admin"
+    password = "YOURcontrollersPASSWORDhere"
+    skip_version_validation = true
+}
+
+#
 #  S3 Bucket / Bootstrap Files / IAM role/policy creation for FireNet  
 #
 
