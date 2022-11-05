@@ -14,6 +14,12 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 
 3. An AWS Account configured in your Controller. This will require designating a name for your AWS account -- something really creative, like, "AWS", perhaps. That is the default name given to the AWS acccount in the code. You will also need to input your 12 digit AWS Account number and then you are ready to go. Leave the 'IAM role-based' checkbox checked. ( This assumes that you have built the Controller with the CloudFormation Template in the BYOL AMI workflow, or that you have built in the IAM roles and policies manually, along with the Controller itself )
 
+4. A subscription to Palo Alto Networks VM-Series. Each FireNet Module has its image property set to 'Bundle 1', which is the metered version. You can change it to BYOL by using the last string below: 
+
+<p>Palo Alto Networks VM-Series Next-Generation Firewall Bundle 1</p>
+<p>Palo Alto Networks VM-Series Next-Generation Firewall Bundle 2</p>
+<p>Palo Alto Networks VM-Series Next-Generation Firewall (BYOL)</p>
+
 
 ### Default Settings 
 
@@ -26,3 +32,5 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 |Gateway Sizes| C5n.2xlarge | 
 |Firewall Size| C5.xlarge|
 |Transit Peering| Full Mesh | 
+
+##### Modules Used: [mc-transit](https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit) | [mc-firenet](https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-firenet) : These modules are maintained by Dennis@Aviatrix so they are clean and well maintained. 
