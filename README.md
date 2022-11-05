@@ -10,6 +10,10 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 
 1. An Aviatrix Controller -- this is simple enough to get having admin access to an AWS account, subscribing to the Marketplace [offering](https://aws.amazon.com/marketplace/pp/prodview-qzvzwigqw72ek?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) (This gets you your metered license key) and launching the [cloudformation template of the BYOL Platform](https://aws.amazon.com/marketplace/pp/prodview-nsys2ingy6m3w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa) ( This launches the actual AMI for your license key to go into ). Yes, you are clicking the subscribe button twice. One is to execute a metered contract on the marketplace and the other is to get access to the AMI itself. Using the AMI to build things is how the meter actually starts running. 
 
+2. Your Aviatrix Customer ID inserted into your Controller -- This will be emailed to you once you complete your email verification after subscribing to the [2208 Metered Offering](https://aws.amazon.com/marketplace/pp/prodview-qzvzwigqw72ek?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) in the AWS Marketplace. When the key arrives you can insert it into the Controller at Step 1 of the OnBoarding page. 
+
+3. An AWS Account configured in your Controller. This will require designating a name for your AWS account -- something really creative, like, "AWS", perhaps. That is the default name given to the AWS acccount in the code. You will also need to input your 12 digit AWS Account number and then you are ready to go. Leave the 'IAM role-based' checkbox checked. ( This assumes that you have built the Controller with the CloudFormation Template in the BYOL AMI workflow, or that you have built in the IAM roles and policies manually, along with the Controller itself )
+
 
 ### Default Settings 
 
