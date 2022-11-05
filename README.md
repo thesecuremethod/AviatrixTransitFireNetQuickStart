@@ -6,6 +6,11 @@ This Repo will build you three(3) Aviatrix Transit FireNets with High Performanc
 
 Getting your FireNet firewalls to deploy automatically requires some configuration files to be uploaded to S3 and some IAM objects to be created. This code base does that for you. 
 
+### What you will need: 
+
+1. An Aviatrix Controller -- this is simple enough to get having admin access to an AWS account, subscribing to the Marketplace [offering](https://aws.amazon.com/marketplace/pp/prodview-qzvzwigqw72ek?sr=0-3&ref_=beagle&applicationId=AWSMPContessa) (This gets you your metered license key) and launching the [cloudformation template of the BYOL Platform](https://aws.amazon.com/marketplace/pp/prodview-nsys2ingy6m3w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa) ( This launches the actual AMI for your license key to go into ). Yes, you are clicking the subscribe button twice. One is to execute a metered contract on the marketplace and the other is to get access to the AMI itself. Using the AMI to build things is how the meter actually starts running. 
+
+
 ### Default Settings 
 
 | Element  | Default Designation  | 
