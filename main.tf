@@ -287,10 +287,4 @@ data "aviatrix_firenet_vendor_integration" "transit3_fw2" {
   save          = true
 }
 
-
-provider "aviatrix" {
-  controller_ip = "YOURcontrollersIPaddressHERE"
-    username = "admin"
-    password = "YOURcontrollersPASSWORDhere"
-    skip_version_validation = true
-}
+    
