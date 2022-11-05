@@ -22,7 +22,7 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 
 ### Usage
 
-Once you have everything in the list above in place, you will need to configure the Aviatrix Provider Statement in lines 5-10 in main.tf. Controller IP and Controller Password will need be set here. The data statements that perform the Vendor Integration sequence in lines 225-288 need to be commented out for the first TF apply. Once the infrastructure build is complete, remove the comments and TF apply again. TF will tell you that nothing has changed, but the green success message will indicate that the Vendor Integration sequence in complete. Once this is done, you are ready to start attaching spokes and exposing workloads. Enjoy! 
+Once you have everything in the list above in place, you will need to configure the Aviatrix Provider Statement in lines 5-10 in main.tf. Controller IP and Controller Password will need be set here. The data statements that perform the Vendor Integration sequence in lines 225-288 need to be commented out for the first TF apply. Once the infrastructure build is complete, wait 10 minutes, remove the comments and TF apply again. TF will tell you that nothing has changed, but the green success message will indicate that the Vendor Integration sequence in complete. Once this is done, you are ready to start attaching spokes and exposing workloads. Enjoy! 
 
 ### Default Settings 
 
