@@ -20,6 +20,9 @@ Getting your FireNet firewalls to deploy automatically requires some configurati
 <p>Palo Alto Networks VM-Series Next-Generation Firewall Bundle 2</p>
 <p>Palo Alto Networks VM-Series Next-Generation Firewall (BYOL)</p>
 
+### Usage
+
+Once you have all your goodies in place, 
 
 ### Default Settings 
 
